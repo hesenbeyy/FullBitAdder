@@ -7,6 +7,7 @@ build/
 *.user
 *.db
 *.opendb
+*.vscode
 
 # Compiled binaries
 *.exe
