@@ -41,9 +41,9 @@ This project uses **CMake**, allowing it to be built on any operating system.
    ```
 2. **Create a build directory and compile**:
    ```bash
-   mkdir build && cd build
-   cmake ..
-   cmake --build .
+   cmake -S . -B build
+
+   cmake --build build
    ```
 
 ## Usage Examples
