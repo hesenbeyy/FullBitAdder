@@ -7,12 +7,13 @@ project(FullAdder C)
 set(CMAKE_C_STANDARD 11)
 
 # Include current directory for header files
-include_directories(.)
+
+target_include_directories(FullAdder PUBLIC include)
 
 # Define the executable and its source files
 add_executable(FullAdder 
-    main.c 
-    binary.c 
-    octal.c 
-    hexadecimal.c
+    src/main.c 
+    src/binary.c 
+    src/octal.c 
+    src/hexadecimal.c
 )
