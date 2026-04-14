@@ -1,8 +1,8 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
-#include "binary.h"
-#include "octal.h"
-#include "hexadecimal.h"
+#include "../include/binary.h"
+#include "../include/octal.h"
+#include "../include/hexadecimal.h"
 
 
 int main() {

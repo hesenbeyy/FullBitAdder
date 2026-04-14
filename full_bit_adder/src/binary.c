@@ -1,6 +1,6 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
-#include "binary.h"
+#include "../include/binary.h"
 
 int binary_eval() {
 	int binary_input;

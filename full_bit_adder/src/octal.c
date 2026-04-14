@@ -1,6 +1,6 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
-#include "octal.h"
+#include "../include/octal.h"
 
 int octal_eval() {
 	int octal_input;

@@ -1,6 +1,6 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
-#include "hexadecimal.h"
+#include "../include/hexadecimal.h"
 
 int hexa_eval() {
 	int hexadecimal_input;
